@@ -5,24 +5,29 @@ body{
     font-size:14px;
     background-color:aliceblue;    
     color:black;
+    margin-top: 0px;
     margin:auto;
     width:100%;
 }
 header{
     background-color: rgba(81, 84, 252, 0.5);
-    padding-right: auto;
-    margin-top:auto;
+    width: 100%;
+    position: fixed;
+	top: 0;
+	z-index: 6666;
+	
 }
 #logo{
     position:relative;
-    margin-top: auto;
     margin-left: 10px;
 }
 nav{
     font-size: 20px;
+    text-align:right;
 }
 main{  
     text-align:center;
+    min-height: 500px;
 }
 #background-image{
     width: 100%;
@@ -32,6 +37,7 @@ footer{
     background:rgba(81, 84, 252, 0.5);
     width:100%;
     margin: auto;
+    position: fixed;
 }
 #article-footer{
     text-align:left;
